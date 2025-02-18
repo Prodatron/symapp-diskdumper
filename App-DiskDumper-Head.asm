@@ -3,7 +3,7 @@ nolist
 org #1000
 
 WRITE "f:\symbos\cpc\diskdump.exe"
-READ "..\..\..\..\SVN-Main\trunk\SymbOS-Constants.asm"
+READ "..\..\..\SRC-Main\SymbOS-Constants.asm"
 
 relocate_start
 
@@ -134,9 +134,9 @@ use_SyFile_DIRMOV       equ 0   ;Moves a file or sub directory
 use_SyFile_DIRINF       equ 1   ;Returns information about one drive
 use_SyFile_DEVDIR       equ 0   ;Reads the content of a directory (extended)
 
-READ "..\..\..\..\SVN-Main\trunk\Docs-Developer\symbos_lib-SystemManager.asm"
-READ "..\..\..\..\SVN-Main\trunk\Docs-Developer\symbos_lib-DesktopManager.asm"
-READ "..\..\..\..\SVN-Main\trunk\Docs-Developer\symbos_lib-FileManager.asm"
+READ "..\..\..\SRC-Main\Docs-Developer\symbos_lib-SystemManager.asm"
+READ "..\..\..\SRC-Main\Docs-Developer\symbos_lib-DesktopManager.asm"
+READ "..\..\..\SRC-Main\Docs-Developer\symbos_lib-FileManager.asm"
 READ "App-DiskDumper.asm"
 
 App_EndTrns
